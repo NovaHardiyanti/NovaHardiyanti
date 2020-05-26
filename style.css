@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(78, 233, 217);
+}
+
 .navbar{
     position: relative;
     z-index: 1;
@@ -59,12 +63,16 @@ h1{
     font-size: small;
 }
 
+.pendidikan table{
+     margin: 10px auto;
+}
+
 .pelatihan img{
     width: 100%;
     margin: 50px 0 20px;
 }
 
-.testimonial .caption p{
+.caption p{
     font-size: 20px;
     font-style: italic;
     font-weight: 200;
@@ -142,7 +150,9 @@ footer p{
     .testimonial .caption p{
         font-size: 32px;
     }
-
+    .pendidikan table td{
+        padding: 5px 20px;
+    }
     
 }
 
